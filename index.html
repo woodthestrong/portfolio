@@ -1,69 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <section>
-        <section>
-            <div>
-                <img src="fotodowoody.png" alt="fotodowoody" width="10%" height="150px">
-                <hr>
-                <h2>Sobre mim</h2>
-                <p>Meu nome é Woody Pascal Jean Louis, 33 anos, curso Engenharia Química na Universidade Federal Latino
-                    Americana - UNILA
-                    que está localizada na cidade de Foz do Iguaçu. Atualmente, eu estou fazendo estágio na ITAIPU
-                    Binacional. Eu gosto de
-                    praticar atividades esportivas nas modalidades como futebol, basquete e atletismo. Eu sou uma pessoa
-                    simpática e
-                    dedicada. Eu gosto de assistir filmes nos meus tempos livres.</p>
+    <!--<header>
+        <div class="logo"><img src="fotodowoody.png" alt="fotodowoody"></div>        
+        <nav class="desktop">
+            <ul>                    
+                <li><a href="#apresentacao">Sobre mim</a></li>
+                <li><a href="#formacao">Contatos</a></li>
+                <li><a href="#experiencia">Habilidades</a></li>
+                <li><a href="#projetos">Formação acadêmica</a></li>
+                <li><a href="#contato">Experiencia</a></li>
+                <li><a href="#contato">Hobbies e Interesses</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <section class="sessao_1">
+        <section class="sessao_1_1">
+            <div class="minhafoto">
+                <img src="fotodowoody.png" alt="fotodowoody">
             </div>
-            <div>
-                <h2>Contatos:</h2>
-                <ul>
-                    <li>Telefone: (45)99942-8805</li>
-                    <li>Facebook: jeanlouiswoodypascal@yahoo.fr</li>
-                    <li>email: woodthestrong@gmail.com</li>
+            <div class="aboutme">
+                <div class="descricao"><h2>Sobre mim</h2><div class="linha"></div></div>              
+                <p>Meu nome é Woody Pascal Jean Louis, estou cursando Engenharia Química na Universidade Federal Latino
+                    Americana - UNILA que está localizada na cidade de Foz do Iguaçu. Atualmente, eu estou fazendo estágio na ITAIPU
+                    Binacional. Eu gosto de praticar atividades esportivas nas modalidades como futebol, basquete e atletismo. Eu sou uma pessoa
+                    simpática e dedicada. Eu gosto de assistir filmes nos meus tempos livres.</p>
+            </div>                   
+            <div class="contacts">
+                <div class="descricao"><h2>Contatos</h2><div class="linha"></div></div>
+                <ul class="dadospessoais">
+                    <li><div class="dadoscoletados"><i class="fa fa-phone" aria-hidden="true"></i></div>(45)99942-8805</li>
+                    <li><div class="dadoscoletados"><i class="fa fa-facebook" aria-hidden="true"></i></div><a href="https://www.facebook.com/woodypascal.jeanlouis" target="_blank"></a>woodypascal.jeanlouis</a></li>
+                    <li><div class="dadoscoletados"><i class="fa fa-envelope"></i></div><a href="mailto:woodthestrong@gmail.com">woodthestrong@gmail.com</a></li>
+                    <li><div class="dadoscoletados"><i class="fa fa-linkedin" aria-hidden="true"></i></div><a href="https://www.linkedin.com/in/woody-pascal-jean-louis-1590141a8/" target="_blank"></a>woody-pascal-jean-louis-1590141a8</a></li>
+                    <li><div class="dadoscoletados"><i class="fa fa-github" aria-hidden="true"></i></div><a href="https://github.com/woodthestrong" target="_blank"></a>woodthestrong</a></li>
                 </ul>
             </div>
-            <div>
-                <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="descricao"><h2>habilidades</h2><div class="linha"></div></div>
                 <p>Eu tenho a capacidade de trabalhar sob pressão, eu sou ágil e criativo para resolver determinados
-                    problemas e definir as
-                    melhores soluções para tais problemas.</p>
+                    problemas e definir as melhores soluções para tais problemas.</p>
             </div>
         </section>
-        <section>
-            <header>
-                <h1>Woody Pascal Jean Louis</h1>
-                <hr>
-            </header>
-            <h2>Formação acadêmica</h2>
-            <ul>
+        <section class="sessao_1_2">
+            <div class="sessao_filho">
+                <h1 class="sessao_filho1">Woody Pascal Jean Louis</h1>
+                <hr class="linha_1">
+            </div>
+            <div class="sessao_filho">
+            <h2 class="sessao_filho2">Formação acadêmica</h2>
+           <ul class="estudos">
                 <li>2012: Curso de língua portuguesa - UFRJ</li>
                 <li>2013 - 2014: Ciências Biológicas - UFRRJ</li>
                 <li>2015 - 2022: Engenharia Química - UNILA</li>
                 <li>2022: Curso de programação Full Stack - TOTI</li>
             </ul>
-            <hr>
-            <h2>Experiência profissional</h2>
-            <ul>
+            <hr class="linha_2">
+            <h2 class="sessao_filho3">Experiência profissional</h2>
+            <ul class="trabalhos">
                 <li>Outubro 2014 - Dezembro 2014: Auxiliar de vendas de produtos farmacêuticos - </li>
                 <li>Janeiro 2020 - Maio 2020: Auxiliar de cozinha - MABU hotel</li>
                 <li>Novembro 2020 - Junho 2021: Auxiliar de polimento de peças metálicas - REFINOX</li>
             </ul>
-            <hr>
-            <h2> Hobbies e Interesses</h2>
+            <hr class="linha_3">
+            <h2 class="sessao_filho4"> Hobbies e Interesses</h2>
             <p>Eu tenho interesse em desenvolver habilidades e experiências na área da computação e adquirir
                 conhecimentos nos principais softwares utilizados pelas empresas que trabalham como homeoffice.</p>
+            </div>
         </section>
     </section>
 
+    <script src="https://kit.fontawesome.com/5c2c563ea4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

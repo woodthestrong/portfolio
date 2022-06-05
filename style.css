@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 0 5% 0 1%;
+}
+
+.logo {
+    width: 10%;      
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav {
+    width: 90%;    
+}
+nav.desktop ul{
+    list-style: none;
+    text-align: right;
+    padding: 21px 0;
+}
+nav.desktop ul li{
+    display: inline;
+    padding: 5px 10px;
+}
+nav.desktop ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    border-bottom: 2px solid #ccc;
+}
+
+.sessao_1 {
+    display: flex;
+}
+
+.sessao_1_1 {
+    width: 30%;
+    background-color: #484d50;
+    padding: 15px;
+}
+
+.sessao_1_2 {
+    width: 70%;
+    margin-left: 3%;
+    padding: 15px;
+}
+
+.minhafoto {
+    width: 70%;      
+}
+.minhafoto img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.aboutme {
+    padding: 3% 0 10% 0;
+    color: white;
+}
+
+.aboutme .descricao {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.skills {
+    padding: 3% 0 10% 0;
+    color: white;
+}
+
+.contacts {
+    padding: 3% 0 10% 0;
+    color: white;   
+}
+
+.linha {
+    width: 185px;
+    height: 2px;
+    background-color: white;
+    margin: 15px;
+}
+
+.linha_1 {
+    margin: 30px 0;
+}
+
+.linha_2 {
+    margin: 30px 0;
+
+}
+
+.linha_3 {
+    margin: 30px 0;
+}
+
+.contacts .descricao {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skills .descricao {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.dadospessoais {
+    list-style: none;
+}
+
+.dadospessoais li {
+    padding-bottom: 10px;
+}
+
+.dadospessoais a {
+    text-decoration: none;
+    color: white;
+}
+
+.dadospessoais i {
+    color: black;
+    font-size: 14px;
+    width: 14px;
+    margin: auto;
+}
+
+.estudos li {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.trabalhos li {
+    text-transform: uppercase;
+    padding: 10px;   
+}
+
+.dadoscoletados {
+    width: 30px;
+    background-color: white;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.sessao_filho {
+    width: 80%;
+    max-width: 600px; 
+    margin: auto;
+}
+
+.sessao_filho1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sessao_filho2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.sessao_filho3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px;  
+}
+
+.sessao_filho4 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px; 
+}
+
+
